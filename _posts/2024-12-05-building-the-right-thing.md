@@ -2,6 +2,7 @@
 layout: post
 title: "Building the Right Thing: Checklist Differences Between Customer-Facing and Platform Products"
 date: 2024-12-05
+excerpt: "When building a tech product, one size does not fit all. The approach you take can vary considerably depending on whether you're developing a customer-facing product or an internal platform product."
 ---
 
 When building a tech product, one size does not fit all. The approach you take can vary considerably depending on whether you're developing a customer-facing product or an internal platform product. While both follow product management fundamentals, they differ in audience, priorities, execution, and measurement of success.
