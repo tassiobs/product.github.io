@@ -8,4 +8,4 @@ title: Product Workbench
   <strong><a href="/">Home</a></strong> | <a href="/blog">Blog Posts</a>
 </nav>
 
-Hi, I'm Tassio — thanks for stopping by. I use this page to share what I'm learning and building in Product Management, especially around strategy. If you want to connect, here's my LinkedIn: [link].
+Hi, I'm Tassio — thanks for stopping by. I use this page to share what I'm learning and building in Product Management, especially around strategy. If you want to connect, here's my LinkedIn: [[link](https://www.linkedin.com/in/tassio-batista/)].
