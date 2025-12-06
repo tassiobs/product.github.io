@@ -1,8 +1,8 @@
 ---
-title: Product Workbench
+title: Tassio’s Product Page
 ---
 
-# Product Workbench
+# Tassio’s Product Page
 
 <nav style="margin: 20px 0; padding: 10px 0; border-bottom: 1px solid #e1e4e8;">
   <strong><a href="{{ site.baseurl }}/">Home</a></strong> | <a href="{{ site.baseurl }}/blog/">Blog Posts</a>
