@@ -18,11 +18,15 @@ Welcome to my blog! Here you'll find posts about Product Management, strategy, a
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
   </h2>
   <p><em>{{ post.date | date: "%B %-d, %Y" }}</em></p>
+  {% comment %} Use explicit excerpt from front matter if available, otherwise use content {% endcomment %}
   {% if post.excerpt %}
-    <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+    {% assign raw_excerpt = post.excerpt %}
   {% else %}
-    <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+    {% assign raw_excerpt = post.content %}
   {% endif %}
+  {% comment %} Strip all HTML tags and clean up whitespace {% endcomment %}
+  {% assign text_only = raw_excerpt | strip_html | replace: '&nbsp;', ' ' | normalize_whitespace | strip %}
+  <p>{{ text_only | truncatewords: 50 }}</p>
   <hr>
 {% endfor %}
 
